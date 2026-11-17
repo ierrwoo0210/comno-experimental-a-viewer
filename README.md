@@ -1,2 +1,13 @@
-# comno-experimental-a-viewer
-Experimental-coordinate Co/Mn/O model A: boundary oxygen candidate, before energy relaxation.
+# Co/Mn/O experimental model A
+
+실험 좌표를 바탕으로 만든 관측영역 모델 A의 3D 뷰어입니다.
+
+- 기존 Mn/Co 및 O 좌표를 보존하고, 내부 경계에 O 후보 857개를 추가했습니다.
+- 전체 248,981개 원자: Co 44,049 / Mn 62,759 / O 142,173.
+- **에너지 이완 전 후보 구조입니다. 최종 수렴 구조나 실험적으로 확정된 O 점유 구조가 아닙니다.**
+- 표시 좌표는 0.005 Å 단위로 반올림되어 있습니다.
+- 드래그: 회전 / Shift+드래그: 이동 / 휠: 확대.
+- O 표시, ROI, 깊이 단면을 선택할 수 있습니다.
+
+`index.html`에 뷰어와 표시용 원자 좌표가 모두 포함되어 있습니다.
+이 공개 페이지의 표시용 좌표는 방문자가 내려받을 수 있습니다.
